@@ -18,9 +18,9 @@ node: 12.13.1
 
 
 # django rest
-python manage.py makemigrations
-python manage.py migrate
-python manage.py run server
+python manage.py makemigrations &&
+python manage.py migrate &&
+python manage.py run server &&
 
 
 # ember
