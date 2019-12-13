@@ -1,4 +1,4 @@
-#virtual env
+# virtual env
 pip install virtualenv
 # cd into the root directory
   cd ~/
@@ -11,17 +11,17 @@ pip install virtualenv
 # activate the virtual environment from anywhere using
   source ~/.envs/my_library/bin/activate
 
-#versions  
+# versions  
 django 1.11.6
 ember-cli: 3.14.0
 node: 12.13.1
 
 
-#django rest
+# django rest
 python manage.py makemigrations
 python manage.py migrate
 python manage.py run server
 
 
-#ember
+# ember
 ember s
